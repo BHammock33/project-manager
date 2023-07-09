@@ -18,8 +18,7 @@ useEffect(() =>{
     async function fetchData(){
         try{
             const tasks = await fetch(
-                `https://my-json-server.typicode.com/PacktPublishing/React-Projects-Second-
-                Edition/tasks`,
+                `https://github.com/BHammock33/project-manager/blob/master/db.json`,
             );
             const res = await tasks.json();
             if(res){

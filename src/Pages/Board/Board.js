@@ -18,7 +18,7 @@ useEffect(() =>{
     async function fetchData(){
         try{
             const tasks = await fetch(
-                `https://github.com/BHammock33/project-manager/blob/master/db.json`,
+                `https://github.com/BHammock33/project-manager/blob/master/db.json/tasks`,
             );
             const res = await tasks.json();
             if(res){
